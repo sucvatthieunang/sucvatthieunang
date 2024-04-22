@@ -1,0 +1,56 @@
+local Reduisceen = Instance.new("ScreenGui")
+Reduisceen.Parent = game:GetService("CoreGui")
+Reduisceen.Name = "redui"
+Reduisceen.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+-- Tạo một đối tượng Frame để chứa UI
+local frame = Instance.new("Frame")
+frame.Size = UDim2.new(0, 589, 0, 285) -- Kích thước của frame
+frame.BackgroundColor3 = Color3.fromRGB(170, 255, 255) -- Màu nền của frame
+frame.Parent = Reduisceen -- Đặt frame làm con của PlayerGui để hiển thị trên màn hình của người chơi
+frame.Position = UDim2.new(0.5, -100, 0.5, -50) -- Vị trí của frame (ở giữa màn hình)
+frame.AnchorPoint = Vector2.new(0.5, 0.5) -- Đặt điểm neo là giữa frame
+frame.ClipsDescendants = true -- Đặt điểm neo là giữa frame
+
+
+
+local corner = Instance.new("UICorner")
+corner.CornerRadius = UDim.new(0, 10) -- Bán kính góc là 10 pixel
+corner.Parent = frame -- Đặt corner làm con của frame để áp dụng góc vào frame
+
+-- Tạo một đối tượng TextLabel để hiển thị văn bản
+local textLabel1 = Instance.new("TextLabel")
+textLabel1.Size = UDim2.new(0, 442, 0, 50) -- Kích thước của textLabel sẽ đầy đủ kích thước của frame
+textLabel1.Position = UDim2.new(0.129, 0, 0.046, 0) -- Vị trí của TextLabel (đầu tiên)
+textLabel1.TextSize = 20 -- Cỡ chữ
+textLabel1.BackgroundColor3 = Color3.fromRGB(255, 255, 255) -- Màu text
+textLabel1.BorderSizePixel = 2 -- Độ dày của viền
+textLabel1.Parent = frame -- Đặt textLabel làm con của frame để nó hiển thị bên trong frame
+textLabel1.TextXAlignment = Enum.TextXAlignment.Center -- Căn giữa theo chiều ngang
+textLabel1.TextYAlignment = Enum.TextYAlignment.Center -- Căn giữa theo chiều dọc
+
+local textLabel2 = Instance.new("TextLabel")
+textLabel2.Size = UDim2.new(0, 301, 0, 50) -- Kích thước của textLabel sẽ đầy đủ kích thước của frame
+textLabel2.Position = UDim2.new(0.509, 1, 0.299, 0) -- Vị trí của TextLabel (nửa dưới của frame)
+textLabel2.TextSize = 20 -- Cỡ chữ
+textLabel2.BackgroundColor3 = Color3.fromRGB(255, 255, 255) -- Màu text
+textLabel2.BorderSizePixel = 2 -- Độ dày của viền
+textLabel2.Parent = frame -- Đặt textLabel làm con của frame để nó hiển thị bên trong frame
+textLabel2.TextXAlignment = Enum.TextXAlignment.Center -- Căn giữa theo chiều ngang
+textLabel2.TextYAlignment = Enum.TextYAlignment.Center -- Căn giữa theo chiều dọc
+
+local textLabel3 = Instance.new("TextLabel")
+textLabel3.Size = UDim2.new(0, 301, 0, 50) -- Kích thước của textLabel sẽ đầy đủ kích thước của frame
+textLabel3.Position = UDim2.new(-0.002, 1, 0.299, 0) -- Vị trí của TextLabel (nửa dưới của frame)
+textLabel3.TextSize = 20 -- Cỡ chữ
+textLabel3.BackgroundColor3 = Color3.fromRGB(255, 255, 255) -- Màu text
+textLabel3.BorderSizePixel = 2 -- Độ dày của viền
+textLabel3.Parent = frame -- Đặt textLabel làm con của frame để nó hiển thị bên trong frame
+textLabel3.TextXAlignment = Enum.TextXAlignment.Center -- Căn giữa theo chiều ngang
+textLabel3.TextYAlignment = Enum.TextYAlignment.Center -- Căn giữa theo chiều dọc
+
+local textLabel4 = textLabel1:Clone()
+textLabel4.Position = UDim2.new(0.129, 1, 0.572, 0) -- Vị trí của TextLabel (thứ hai)
+textLabel4.Parent = frame -- Đặt TextLabel làm con của frame để nó hiển thị bên trong frame
+
+
