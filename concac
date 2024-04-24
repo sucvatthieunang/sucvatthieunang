@@ -104,7 +104,7 @@ end
 local startTime = os.time()
 while getgenv().MoneyPrinter.autoBalloons do task.wait()
 	if getgenv().MoneyPrinter.autoPresents then getPresents() end
-	for _,Balloon in pairs(Library.Network.Invoke("BalloonGifts_GetActiveBalloons")) do task.wait(0.03)
+	for _,Balloon in pairs(Library.Network.Invoke("BalloonGifts_GetActiveBalloons")) do task.wait(0.1)
 		if Balloon.Id then
 			while Library.Network.Invoke("BalloonGifts_GetActiveBalloons")[Balloon.Id] do task.wait(0.03)
 				if not getTool() then equipTool(getgenv().MoneyPrinter.toolName) end
