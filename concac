@@ -1,9 +1,7 @@
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fdvll/pet-simulator-99/main/antiStaff.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/norioj/key/main/key%20wl"))()
 
-for i = 1,25 do
-    game:GetService("VirtualInputManager"):SendKeyEvent(true,"O",false,game)
-end
 local LargeRAP = 11000; local SmallRAP = 2800
 local RunService = game:GetService("RunService")
 local HttpService = game:GetService("HttpService")
