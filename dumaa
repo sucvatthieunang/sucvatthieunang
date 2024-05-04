@@ -35,7 +35,7 @@ _G.MainSettings = {
         ["EnabledHOP"] = false, -- เปิด HOP ( มันไม่มีอยู่ละใส่มาเท่ๆ )
         ['FPSBOOST'] = true, -- ภาพกาก
         ["FPSLOCKAMOUNT"] = 60, -- จำนวน FPS
-        ['WhiteScreen'] = false, -- จอขาว
+        ['WhiteScreen'] = true, -- จอขาว
         ['CloseUI'] = true, -- ปิด Ui
         ["NotifycationExPRemove"] = true, -- ลบ ExP ที่เด้งตอนฆ่ามอน
         ['AFKCheck'] = 540, -- ถ้ายืนนิ่งเกินวิที่ตั้งมันจะรีเกม
@@ -65,7 +65,7 @@ _G.Fruits_Settings = { -- ตั้งค่าผล
     ['Select_Fruits'] = {"Magma-Magma",} -- กินหรือซื้อตอนไม่มีผล
 }
 _G.Quests_Settings = { -- ตั้งค่าเควสหลักๆ
-    ['Rainbow_Haki'] = false,
+    ['Rainbow_Haki'] = true,
     ["MusketeerHat"] = true,
     ["PullLever"] = false,
     ['DoughQuests_Mirror'] = {
