@@ -27,7 +27,7 @@ _G.LogsDes = {
     ["DelaySend"] = 5 -- วินาที
 }
 _G.WebHook = {
-    ["Enabled"] = false, -- เปิดการใช้งาน
+    ["Enabled"] = true, -- เปิดการใช้งาน
     ["Url"] = "https://discord.com/api/webhooks/952236607191265410/1DK-sWPimY2LFle-frmHHd9r2AIWLPvBjOtIAiGLkMXbREePzSc5dwgM5R5woQ4axm0j",
     ["Delay"] = 60 -- วินาที
 }
