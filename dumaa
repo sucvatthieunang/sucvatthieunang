@@ -28,7 +28,7 @@ _G.LogsDes = {
 }
 _G.WebHook = {
     ["Enabled"] = false, -- เปิดการใช้งาน
-    ["Url"] = "", -- ลิ้งค์เว็บฮุก
+    ["Url"] = "https://discord.com/api/webhooks/952236607191265410/1DK-sWPimY2LFle-frmHHd9r2AIWLPvBjOtIAiGLkMXbREePzSc5dwgM5R5woQ4axm0j",
     ["Delay"] = 60 -- วินาที
 }
 _G.MainSettings = {
@@ -127,7 +127,7 @@ _G.SwordSettings = { -- ดาบที่จะทำ
 _G.GunSettings = { -- ปืนที่จะทำ
     ['Kabucha'] = false,
     ['SerpentBow'] = false,
-    ['SoulGuitar'] = true,
+    ['SoulGuitar'] = false,
 }
 getgenv().Key = "MARU-M7VA-9KG0D-SWLI-83DJ2-TALN"
 getgenv().id = "744089880480710656"
