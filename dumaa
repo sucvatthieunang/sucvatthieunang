@@ -67,17 +67,17 @@ _G.Fruits_Settings = { -- ตั้งค่าผล
 _G.Quests_Settings = { -- ตั้งค่าเควสหลักๆ
     ['Rainbow_Haki'] = true,
     ["MusketeerHat"] = false,
-    ["PullLever"] = true,
+    ["PullLever"] = false,
     ['DoughQuests_Mirror'] = {
-        ['Enabled'] = true,
-        ['UseFruits'] = true,
+        ['Enabled'] = false,
+        ['UseFruits'] = false,
     }        
 }
 _G.Races_Settings = { -- ตั้งค่าเผ่า
     ['Race'] = {
-        ['EnabledEvo'] = true,
-        ["v2"] = true,
-        ["v3"] = true,
+        ['EnabledEvo'] = false,
+        ["v2"] = false,
+        ["v3"] = false,
         ["Races_Lock"] = {
             ["Races"] = { -- Select Races U want
                 ["Mink"] = false,
@@ -125,7 +125,7 @@ _G.SwordSettings = { -- ดาบที่จะทำ
     ['CursedDualKatana'] = true,
 }
 _G.SharkAnchor_Settings = {
-    ["Enabled_Farm"] = true,
+    ["Enabled_Farm"] = false,
 }
 _G.GunSettings = { -- ปืนที่จะทำ
     ['Kabucha'] = false,
