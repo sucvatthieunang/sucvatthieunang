@@ -99,11 +99,12 @@ _G.Settings_Melee = { -- หมัดที่จะทำ
 _G.FarmMastery_Settings = {
     ['Melee'] = true,
     ['Sword'] = false,
+    ['Gun'] = true,
     ['DevilFruits'] = true,
     ['Select_Swords'] = {
         ["AutoSettings"] = true, --ถ้าเปิดอันนี้มันจะเลือกดาบให้เองหรือฟาร์มทุกดาบนั่นเอง
         ["ManualSettings"] = { -- ถ้าปรับ AutoSettings เป็น false มันจะฟาร์มดาบที่เลือกตรงนี้ ตัวอย่างข้างล่าง
-            "BuddySword",
+            "SerpentBow",
         }
     }
 }
@@ -128,7 +129,7 @@ _G.SharkAnchor_Settings = {
 }
 _G.GunSettings = { -- ปืนที่จะทำ
     ['Kabucha'] = false,
-    ['SerpentBow'] = false,
+    ['SerpentBow'] = true,
     ['SoulGuitar'] = false,
 }
 getgenv().Key = "MARU-M7VA-9KG0D-SWLI-83DJ2-TALN"
