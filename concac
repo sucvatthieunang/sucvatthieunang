@@ -101,10 +101,11 @@ _G.FarmMastery_Settings = {
     ['Sword'] = false,
     ['Gun'] = true,
     ['DevilFruits'] = true,
-    ['Select_Guns'] = {
+    ['Select_Sword'] = {
         ["AutoSettings"] = true, --ถ้าเปิดอันนี้มันจะเลือกดาบให้เองหรือฟาร์มทุกดาบนั่นเอง
         ["ManualSettings"] = { -- ถ้าปรับ AutoSettings เป็น false มันจะฟาร์มดาบที่เลือกตรงนี้ ตัวอย่างข้างล่าง
-            "SerpentBow",
+            "Yama",
+            "Tushita",
         }
     }
 }
@@ -115,14 +116,14 @@ _G.SwordSettings = { -- ดาบที่จะทำ
     ['Shisui'] = false,
     ['Saddi'] = false,
     ['Wando'] = false,
-    ['Yama'] = false,
+    ['Yama'] = true,
     ['Rengoku'] = false,
     ['Canvander'] = false,
     ['BuddySword'] = false,
     ['TwinHooks'] = false,
     ['HallowScryte'] = false,
     ['TrueTripleKatana'] = false,
-    ['CursedDualKatana'] = false,
+    ['CursedDualKatana'] = true,
 }
 _G.SharkAnchor_Settings = {
     ["Enabled_Farm"] = false,
