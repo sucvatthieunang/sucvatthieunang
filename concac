@@ -99,7 +99,6 @@ _G.Settings_Melee = { -- หมัดที่จะทำ
 _G.FarmMastery_Settings = {
     ['Melee'] = true,
     ['Sword'] = false,
-    ['Gun'] = true,
     ['DevilFruits'] = true,
     ['Select_Swords'] = {
         ["AutoSettings"] = true, --ถ้าเปิดอันนี้มันจะเลือกดาบให้เองหรือฟาร์มทุกดาบนั่นเอง
