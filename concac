@@ -69,8 +69,8 @@ _G.Quests_Settings = { -- ตั้งค่าเควสหลักๆ
     ["MusketeerHat"] = false,
     ["PullLever"] = false,
     ['DoughQuests_Mirror'] = {
-        ['Enabled'] = false,
-        ['UseFruits'] = false,
+        ['Enabled'] = true,
+        ['UseFruits'] = true,
     }        
 }
 _G.Races_Settings = { -- ตั้งค่าเผ่า
